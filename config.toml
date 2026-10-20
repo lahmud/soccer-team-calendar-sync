@@ -11,6 +11,8 @@ name = "Chelsea"
 name = "Chelsea FC"
 # Output path. Anything under docs/ is published by GitHub Pages.
 out = "docs/chelsea.ics"
+# Subscribe to this in Google Calendar: Other calendars > + > From URL.
+feed_url = "https://lahmud.github.io/soccer-team-calendar-sync/chelsea.ics"
 
 [target]
 # PLACEHOLDER - replace with the personal Google account before going live.
