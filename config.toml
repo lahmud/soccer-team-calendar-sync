@@ -1,0 +1,26 @@
+# Which team to build a calendar for, and what to call it.
+# CLI flags override anything set here.
+
+[team]
+# Full name or FPL short code: "Chelsea", "CHE", "Spurs", "Man Utd".
+# Run with a bad name to get the full list of valid options.
+name = "Chelsea"
+
+[calendar]
+# Name Google shows for the subscribed calendar.
+name = "Chelsea FC"
+# Output path. Anything under docs/ is published by GitHub Pages.
+out = "docs/chelsea.ics"
+
+[target]
+# PLACEHOLDER - replace with the personal Google account before going live.
+# Subscribing does not actually need an account: you paste the feed URL into
+# whichever Google Calendar you are signed in to. Recorded here so it's clear
+# where this belongs, and for a future direct-write path.
+account = "PLACEHOLDER@gmail.com"
+
+[source]
+# Fantasy Premier League API. Public, no key required.
+provider = "fantasy.premierleague.com"
+competition = "Premier League"
+# Cups and European fixtures are not in this feed. See README.
